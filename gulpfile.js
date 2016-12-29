@@ -11,7 +11,7 @@ var gulp = require("gulp");
 var gutil = require("gulp-util");
 var jshint = require("gulp-jshint");
 var jshintStylish = require("jshint-stylish");
-var karma = require("karma").server;
+//var karma = require("karma").server;
 var merge = require("merge-stream");
 var prettyTime = require("pretty-hrtime");
 var rename = require("gulp-rename");
@@ -92,6 +92,8 @@ gulp.task("bower:build", function() {
 });
 
 gulp.task("build", ["demo:build", "js:build", "js:test", "core-js:build", "core-js:test", "demo:test"]);
+
+gulp.task("buildNoTest", ["demo:build", "js:build", "core-js:build"]);
 
 gulp.task("watch", ["demo:watch", "js:watch", "js:test:watch"]);
 
