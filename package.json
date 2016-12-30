@@ -1,13 +1,15 @@
 {
-  "name": "dagre-d3",
-  "version": "0.4.18-pre",
-  "description": "A D3-based renderer for Dagre",
-  "author": "Chris Pettitt <chris@samsarin.com>",
+  "name": "dagre-d3-neural-net",
+  "version": "0.0.1",
+  "description": "A D3-based renderer for Dagre that supports some neural network enhancements",
+  "author": "Original Author: Chris Pettitt <chris@samsarin.com>, neural net add-ons: John David Martin <johndavidfive@gmail.com>",
   "keywords": [
     "graph",
     "dagre",
     "graphlib",
-    "renderer"
+    "renderer",
+    "neural",
+    "network"
   ],
   "dependencies": {
     "d3": "^3.3.8",
@@ -51,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cpettitt/dagre-d3.git"
+    "url": "https://github.com/gitsome/dagre-d3"
   },
   "license": "MIT"
 }
